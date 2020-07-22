@@ -34,8 +34,8 @@ let sketch = function (p) {
     inputRodape2 = p.select("#campoRodapeInput2");
     inputRodape2.value(inputRodape2.elt.placeholder);
 
-    inputQR = p.select("#campoQR");
-    inputQR.value(inputQR.elt.placeholder);
+//     inputQR = p.select("#campoQR");
+//     inputQR.value(inputQR.elt.placeholder);
 
     bot_download = p.select("#botDownload");
     bot_download.mousePressed(p.download);
