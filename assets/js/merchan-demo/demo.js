@@ -70,7 +70,7 @@ let sketch = function (p) {
     const fundo = p.color(100, 100, 100, 50);
     const frente = p.color(255, 255, 255, 255);
     var padding = 5;
-    drawQR(inputQR.elt.value, x, y, size, padding, fundo, frente);
+//     drawQR(inputQR.elt.value, x, y, size, padding, fundo, frente);
   };
 
   // ------------------------------------------------------------------
